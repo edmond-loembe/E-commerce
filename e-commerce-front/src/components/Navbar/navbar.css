@@ -33,7 +33,7 @@ nav{
     border-bottom: solid 1px rgb(255, 0, 0);
     font-size: 30px;
     /* font-family: 'Playfair Display SC', serif; */
-    
+
 }
 .Nave{
     position: sticky;
@@ -45,7 +45,7 @@ nav{
     height: 80px;
     border-radius: 15px;
     margin: 5px;
-    margin-left: 140px;
+    margin-left: 40px;
 }
 
 .navv:hover{
@@ -76,5 +76,3 @@ nav{
     font-size: 40px;
 
 }
-
-
