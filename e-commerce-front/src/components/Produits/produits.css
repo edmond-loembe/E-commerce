@@ -1,0 +1,87 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px 10px;
+    background: #fff;
+}
+
+small {
+    border: 2px solid #777;
+    border-radius: 7px;
+    padding: 5px 12px;
+    color: #777;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 1px 1px rgba(119, 119, 119, 0.199);
+}
+
+.buttonRetour{
+    height: 50px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: manga;
+}
+
+.buttonRetour:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: 2s;
+
+}
+.buttonSuprime{
+    margin-left: 100px;
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: manga;
+}
+
+.buttonSuprime:hover{
+    background-color: white;
+    color: rgb(255, 0, 0);
+    transition: 2s;
+
+}
+.titreCommande{
+    font-family: manga;
+}
+
+.buttonPaiment{
+    background-color: rgb(56, 56, 56);
+    color: white;
+    height: 50px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: manga;
+}
+
+.buttonPaiment:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 2s;
+}
+
+.searchbar{
+    border-radius: 10px;
+    margin: 20px;
+    width: 200px;
+    font-family: manga;
+}
+
+.searchbar:hover{
+    width: 400px;
+    transition: 2s;
+}

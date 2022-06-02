@@ -1,0 +1,19 @@
+.cards{
+    background-color: #fff;
+    padding: 30px;
+    padding-left: 180px;
+
+}
+
+
+
+.coll{
+    flex: 0;
+    display: inline;
+}
+
+.card{
+    width: 280px;
+    margin: 5px;
+    
+}

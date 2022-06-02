@@ -1,23 +1,3 @@
-# E-Commerce
-
------------------
-##### *Creation of an e-commerce site in groups of 5*
------------------
- 
-###### *Réalised by :*
-* **Edmond Loembe-Sauthataliase** _alias_ [@edmond-loembe](https://github.com/edmond-loembe)
-* **Ibrahim-lakhdar Djebbar** _alias_ [@ibrahim662](https://github.com/ibrahim662)
-* **Hamzat Siby** _alias_ [@hamzat15](https://github.com/hamzat15)
-* **Jérémy Ly** _alias_ [@jeyrem75](https://github.com/jeyrem75)
-* **Mariam Ghukasyan** _alias_ [@mariamgh13](https://github.com/mariamgh13)
-###### *A period of 4 weeks*
------------------
-
-[Trello](https://trello.com/b/AKx8l3OC/e-commerce)
-
------------------
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

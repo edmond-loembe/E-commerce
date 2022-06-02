@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ProductInventory index{% endblock %}
+
+{% block body %}
+    <h1>ProductInventory index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Quantity</th>
+                <th>Created_at</th>
+                <th>Modified_at</th>
+                <th>Deleted_at</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for product_inventory in product_inventories %}
+            <tr>
+                <td>{{ product_inventory.id }}</td>
+                <td>{{ product_inventory.quantity }}</td>
+                <td>{{ product_inventory.createdAt ? product_inventory.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ product_inventory.modifiedAt ? product_inventory.modifiedAt|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ product_inventory.deletedAt ? product_inventory.deletedAt|date('Y-m-d H:i:s') : '' }}</td>
+                <td>
+                    <a href="{{ path('product_inventory_show', {'id': product_inventory.id}) }}">show</a>
+                    <a href="{{ path('product_inventory_edit', {'id': product_inventory.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('product_inventory_new') }}">Create new</a>
+{% endblock %}

@@ -1,0 +1,9 @@
+.titreSeparation{
+    font-family: manga;
+    color: white;
+}
+
+.separation{
+    background-image: url(./banniereS.jpg);
+    padding: 60px;
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+/* font-family: 'Odibee Sans', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/* font-family: 'Staatliches', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* font-family: 'Bangers', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+/* font-family: 'Playfair Display SC', serif; */
+
+@font-face {
+    font-family: 'Manga';
+    src: local('Manga'), url('./Manga.otf') format('Opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    scroll-behavior: smooth;
+}
+
+
+a{
+    font-family: 'Manga';
+}
+img{
+    width: 20px;
+    font-size: 60px;
+}
+
+nav{
+    background-color: #777777;
+    border-bottom: solid 1px rgb(255, 0, 0);
+    font-size: 30px;
+    /* font-family: 'Playfair Display SC', serif; */
+    
+}
+.Nave{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navv{
+    height: 80px;
+    border-radius: 15px;
+    margin: 5px;
+    margin-left: 140px;
+}
+
+.navv:hover{
+    background-color: #C8362D;
+    transition:0.5s;
+}
+
+
+.logo img{
+    width: 100px;
+}
+
+.imgg{
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+
+.imgg:hover{
+    background-color: #C8362D;
+    transition:0.5s;
+}
+
+.titre{
+    font-size: 40px;
+
+}
+
+

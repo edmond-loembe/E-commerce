@@ -1,0 +1,71 @@
+
+- prise en main de git-flow
+- creation des branches
+- Choix du sujet de produits a mettre en vente
+- Création d'une maquette en prenant compte de l'avis de chacun
+- Création d'une bdd et de sa structure
+- Prise en main de symfony
+- Inscription / Connexion 
+- Interface admin
+- https://trello.com/b/AKx8l3OC/e-commerce
+
+
+
+table users :
+id
+gender
+firstname
+lastname
+mail
+password
+phone
+roles
+created_at
+
+ 
+
+table users_adress : 
+id_users
+adress
+postalCode
+city
+country
+telephone
+
+
+table users_payment :
+id_users
+payment_type
+provider
+account_no
+expiry
+
+
+table products : 
+id
+id_categorie
+id_stock
+name 
+photo
+description
+price
+
+table discount:
+id
+name
+description
+discount_%
+active
+
+
+
+table stock :
+id_products
+stockDepart
+stockArriver
+
+
+
+table categories : 
+id
+name

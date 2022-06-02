@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New ProductInventory{% endblock %}
+
+{% block body %}
+    <h1>Create new ProductInventory</h1>
+
+    {{ include('product_inventory/_form.html.twig') }}
+
+    <a href="{{ path('product_inventory_index') }}">back to list</a>
+{% endblock %}

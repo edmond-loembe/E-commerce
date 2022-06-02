@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}ProductInventory{% endblock %}
+
+{% block body %}
+    <h1>ProductInventory</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ product_inventory.id }}</td>
+            </tr>
+            <tr>
+                <th>Quantity</th>
+                <td>{{ product_inventory.quantity }}</td>
+            </tr>
+            <tr>
+                <th>Created_at</th>
+                <td>{{ product_inventory.createdAt ? product_inventory.createdAt|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Modified_at</th>
+                <td>{{ product_inventory.modifiedAt ? product_inventory.modifiedAt|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Deleted_at</th>
+                <td>{{ product_inventory.deletedAt ? product_inventory.deletedAt|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('product_inventory_index') }}">back to list</a>
+
+    <a href="{{ path('product_inventory_edit', {'id': product_inventory.id}) }}">edit</a>
+
+    {{ include('product_inventory/_delete_form.html.twig') }}
+{% endblock %}
